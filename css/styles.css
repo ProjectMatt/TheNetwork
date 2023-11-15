@@ -1,0 +1,122 @@
+/* styles.css */
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+nav {
+    background-color: #555;
+    padding: 10px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+/* Add styling for the video container */
+section video {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+#live-label {
+    margin-top: 20px;
+    font-size: 24px;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Green enrollment buttons */
+.course-buttons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.course-button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 15px; /* Increase padding for a larger button */
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px; /* Increase font size for better visibility */
+    margin: 10px 0; /* Add margin for better spacing between buttons */
+    cursor: pointer;
+    transition: background-color 0.3s; /* Smooth transition effect */
+}
+
+.course-button:hover {
+    background-color: #45a049;
+}
+
+/* Additional styles for contact.html */
+.contact-info {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 18px;
+}
+
+.contact-form {
+    width: 50%;
+    margin-top: 20px;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.contact-form button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.contact-form button:hover {
+    background-color: #45a049;
+}
